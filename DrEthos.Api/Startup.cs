@@ -78,7 +78,7 @@ namespace DrEthos.Api
             {
                 app.UseDeveloperExceptionPage();
             }
-            //CORS için hangi ayarlarý kullanacaðýmýzý belirtiyoruz.
+           
         }
     }
 }
