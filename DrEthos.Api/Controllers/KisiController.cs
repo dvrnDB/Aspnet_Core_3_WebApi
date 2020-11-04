@@ -32,7 +32,7 @@ namespace DrEthos.Api.Controllers
             Kisi kisi = _repository.Get(id);
             if (kisi == null)
             {
-                return NotFound("The Employee record couldn't be found.");
+                return NotFound("Kişi bulunamadı.");
             }
 
             return Ok(kisi);
